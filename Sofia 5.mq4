@@ -18,14 +18,14 @@ enum pos
   };
 //--- input parameters
 extern pos Pos_Mode = AA; // Positions Mode
-extern double Lots = 0.01; //initial Lot
-extern double TakeProfit = 100.0;// take profit in pips
-extern double StopLoss = 100;// stop loss in pips
+extern double Lots = 0.2; //initial Lot
+extern double TakeProfit = 80.0;// take profit in pips
+extern double StopLoss = 450;// stop loss in pips
 extern bool Hedging = false; // enable/disable hedging
 extern int MagicNumber = 567456;
 extern string EA_Name = "[https://t.me/SyariefAzman] ";
 extern bool autoCompound = true;
-extern double initialCapital = 1000;
+extern double initialCapital = 1300;
 
 double BuySL, SellSL, buylot, selllot, BuyTP, SellTP;
 double sprice, bprice;
